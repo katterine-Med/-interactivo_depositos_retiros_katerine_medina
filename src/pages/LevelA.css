@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.ContainerAtm{
+    position: relative;
+    height: 18em;
+    top: -1em;
+    bottom:0px;
+    right: 0px;
+    left: 5rem;
+}
+@media  (max-width: 425px) and (min-width: 320px) {
+    .ContainerAtm{
+    position: relative;
+    height: 18em;
+    width: 50em;
+    top: 4em;
+    bottom:9em;
+    right: auto;
+    left: auto;    
+    }
+}
+@media  (max-width: 1024px) and (min-width: 425px){
+    .ContainerAtm{
+        position: relative;
+        height: 18em;
+        width: 50em;
+        top: 4em;
+        bottom:9em;
+        right: auto;
+        left: auto; 
+}}
+.titleAtm{
+    position: relative;
+    width: auto;
+    height: 47px;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1em;
+    font-size: large;
+    font-weight: bold;
+    background: rgba(217, 209, 209, 0.76);
+    border: 3px solid rgba(38, 50, 56, 0.8);
+    box-sizing: border-box;
+}
+.containerScreenAtm{
+    position: relative;
+    left: 0%;
+    right: inherit;
+    top:0px;
+    bottom: 0px;
+    height: 15em;
+    width: 27em;
+    background-color: gray;background: rgba(38, 50, 56, 0.8);
+    border: 4px solid rgba(38, 50, 56, 0.8);
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+@media  (max-width: 425px) and (min-width: 320px){
+   .containerScreenAtm {
+    position: relative;
+    left: 0%;
+    right: inherit;
+    top:0px;
+    bottom: 0px;
+    height: 15em;
+    width: 40em;
+    background-color: gray;background: rgba(38, 50, 56, 0.8);
+    border: 4px solid rgba(38, 50, 56, 0.8);
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    }
+}
+.containerMoney{
+    position:relative;
+    right: 0px;
+    left: 27em;
+    top:-15em;
+    bottom: 9em;
+    height: 15em;
+    width: 20em;
+    align-items: center;
+    background: rgba(217, 209, 209, 0.76);
+    border: 3px solid rgba(38, 50, 56, 0.8);
+    box-sizing: border-box;
+}
+@media  (max-width: 425px) and (min-width: 320px){
+    .containerMoney{
+        position:relative;
+        right: -6em;
+        left: 40em;
+        top:-15em;
+        bottom: 9em;
+        height: 15em;
+        width: 10em;
+        align-items: center;
+        background: rgba(217, 209, 209, 0.76);
+        border: 3px solid rgba(38, 50, 56, 0.8);
+        box-sizing: border-box;     
+}
+}
+.btn-Atm button{
+    position: relative;
+    left: 7em;
+    right: auto;
+    background: #F1BB89;
+    bottom: 0px;
+    top: 25em;
+}
+@media (max-width: 425px) and (min-width: 320px){
+    .btn-Atm button{
+        position: relative;
+        left: 15em;
+        right: auto;
+        background: #F1BB89;
+        bottom: 0px;
+        top: 32em;
+        height: 3em;
+        width: 15em;
+        text-align: justify;
+        font: 2em ;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+}
+.text-Inst{
+    color:white;
+    background: rgba(90, 85, 85, 0.34);
+    border-radius: 15px; 
+    height: 80px; 
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+@media (max-width: 425px) and (min-width: 300px) {
+    .text-Inst{
+        position: relative;
+        color:white;
+        background: rgba(90, 85, 85, 0.34);
+        left: 15em;
+        right: auto;
+        bottom: 0px;
+        top: 10em;
+        height: 7em;
+        width: 30em;
+        text-align:center;
+        font: 1em ;
+        font-family: 'Roboto', sans-serif;
+    }
+}
