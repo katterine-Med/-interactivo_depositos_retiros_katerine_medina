@@ -2,15 +2,15 @@
 import { useHistory } from 'react-router';
 function LevelA() {
   const history = useHistory();
-  const historyPageInNotes = () => {
+  const historyPageInLevel = () => {
     history.push('/Main')
   }
   return (
     <div>
-        <button onClick={historyPageInNotes}
-          className="buttonViewN">Ver Notas</button>  
+        <button onClick={historyPageInLevel}
+          className="buttonViewN">Continuar</button>  
     </div>
-    
+
   );
 }
 export default LevelA;
